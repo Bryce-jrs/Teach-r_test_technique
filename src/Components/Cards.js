@@ -7,11 +7,15 @@ import './Cards.css'
 
 
 
-export default function TeachCard() {
-  //const [people, setPeople] = useState([...Teachers]);
+export default function Card() {
+
+  function handleClick(){
+    alert("choix pris en compte")
+  }
+
   return (
     <div className="cards">
-      <div className="profil">
+      <div className="profil" id="1">
       <img className="photo" alt="profil" src={logo}/>
       <div className="card">
       <h2>Marie Dardell</h2>
@@ -37,7 +41,7 @@ export default function TeachCard() {
       consectetur adipiscing elit, sed do eiusmod tempor incididunt 
       ut labore et dolore magna aliqua. </span>
       </div>
-      <button className="choix" >Choisir</button>
+      <button className="choix" onClick={()=>handleClick()}>Choisir</button>
       </div>
       <div className="profil">
       <img className="photo" alt="profil" src={logo}/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
@@ -65,7 +69,7 @@ export default function TeachCard() {
       consectetur adipiscing elit, sed do eiusmod tempor incididunt 
       ut labore et dolore magna aliqua.</span>
       </div>
-      <button className="choix">Choisir</button>
+      <button className="choix" onClick={()=>handleClick()}>Choisir</button>
       </div>
       <div className="profil">
       <img className="photo" alt="profil" src={logo}/>
@@ -93,7 +97,7 @@ export default function TeachCard() {
       consectetur adipiscing elit, sed do eiusmod tempor incididunt 
       ut labore et dolore magna aliqua. </span>
       </div>
-      <button className="choix" >Choisir</button>
+      <button className="choix" onClick={()=>handleClick()}>Choisir</button>
       </div>
       </div>
   )

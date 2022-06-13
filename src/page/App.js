@@ -1,16 +1,18 @@
 import "./styles.css";
 import Header from '../Components/Header';
-import TeachCard from '../Components/Cards'
-import Sidebar from '../Components/sidebar'
-import Footer from '../Components/footer'
+import Cards from '../Components/Cards';
+import Sidebar from '../Components/sidebar';
+import Footer from '../Components/footer';
 
 export default function App() {
   return (
     <div className="App">
       <Sidebar/>
+      <div className="content">
       <Header/>
-      <TeachCard/>
+      <Cards/>
       <Footer/>
+        </div>
     </div>
   );
 }

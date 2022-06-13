@@ -5,23 +5,23 @@ import green from '../ressource/green.png';
 import deux from '../ressource/2-rond.png'
 import trois from '../ressource/3-rond.png';
 
+
 export default function Sidebar(){
   return (
-    <div class="sidebar">
-      <img alt="logo teach'r" src={logo} width="100px"/>
+    <div className="sidebar">
+      <img alt="logo teach'r" className="teach" src={logo}/>
       <div className="set">
-      <a href=""> <img alt="logo" src={green} width="35px"/> Votre demande </a>
+      <a href="#"> <img alt="logo" className="green" src={green}/> <p>Votre demande</p> </a>
       </div>
       <div className="set">
-      
-      <a href="">
-      <img alt="logo" src={deux} width="45px"/> Nos propositions</a>
+      <a href="./offer" target="blank">
+      <img alt="logo" className="deux" src={deux}/> <p>Nos propositions</p></a>
       </div>
       <div className="set">
-      <a href=""> <img alt="logo" src={trois} width="45px" height="50px"/> Paiement</a>
+      <a href="/payment"> <img alt="logo" className="trois" src={trois} /> <p>Paiement</p></a>
       </div >
       <div className="illust">
-      <img alt="logo illustration" src={livre} width="250px"/>
+      <img alt="logo illustration" className="livre" src={livre}/>
         </div>
     </div>
   )

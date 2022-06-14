@@ -1,0 +1,137 @@
+.profile-teachcards {
+  width: 90%;
+  margin-left: 150px;
+}
+.profile-teachcard {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 180px;
+  height: 440px;
+  overflow: hidden;
+  background-color: #c0dfef;
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px 1px black;
+}
+
+.slick-slide {
+  margin: 0 19px;
+}
+
+.slick-list {
+  margin: 0 -10px;
+}
+
+.profil-photo img {
+  width: 100px;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+.details .hat img {
+  width: 23px;
+  margin-left: 10px;
+}
+
+.profile-teachcards .profile-teachcard .details .hat {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 35px;
+}
+.profile-teachcards .profile-teachcard .details .conv img {
+  width: 20px;
+  margin-left: 10px;
+}
+.profile-teachcards .profile-teachcard .details .conv {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 35px;
+}
+.profile-teachcards .profile-teachcard .details .check img {
+  width: 15px;
+  margin-left: 10px;
+}
+
+.profile-teachcards .profile-teachcard .details .check {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 35px;
+}
+.profile-teachcards .profile-teachcard .details .lieu img {
+  width: 15px;
+  margin-left: 10px;
+}
+.profile-teachcards .profile-teachcard .details .lieu {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 35px;
+}
+
+.profile-teachcards .profile-teachcard button {
+  background-color: #3b5998;
+  margin-left: auto;
+  color: white;
+}
+.profile-teachcards .profile-teachcard .Name {
+  font-size: 20px;
+  color: #3b5998;
+}
+.profile-teachcards .profile-teachcard .horaire {
+  font-size: 10px;
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.profile-teachcards .profile-teachcard .rating-photo img {
+  width: 60px;
+  margin: 0 auto;
+}
+.profile-teachcards .profile-teachcard .horaire span {
+  color: #3b5998;
+  font-size: 5px;
+}
+.profile-teachcards .profile-teachcard .description p {
+  font-size: 14px;
+  color: black;
+}
+
+.profile-teachcards .profile-teachcard .description h3 {
+  color: #3b5998;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1400px) {
+  .profile-teachcards {
+    width: 100%;
+    margin-left: 150px;
+  }
+
+  .profile-teachcard {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+}
+@media only screen and (min-width: 725px) and (max-width: 1024px) {
+  .profile-teachcards {
+    width: 100%;
+    margin-left: 50px;
+  }
+
+  .profile-teachcard {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 180px;
+    height: 440px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 675px) {
+  .profile-teachcards {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .profile-teachcards .profile-teachcard {
+    margin-top: 50px;
+    margin-left: 0px;
+    width: 180px;
+    height: 440px;
+  }
+}

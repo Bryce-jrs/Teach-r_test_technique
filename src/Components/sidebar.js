@@ -11,14 +11,14 @@ export default function Sidebar(){
     <div className="sidebar">
       <img alt="logo teach'r" className="teach" src={logo}/>
       <div className="set">
-      <a href="#"> <img alt="logo" className="green" src={green}/> <p>Votre demande</p> </a>
+      <a href="#"> <img alt="logo" className="green" src={green}/> Votre demande </a>
       </div>
       <div className="set">
       <a href="./offer" target="blank">
-      <img alt="logo" className="deux" src={deux}/> <p>Nos propositions</p></a>
+      <img alt="logo" className="deux" src={deux}/> Nos propositions</a>
       </div>
       <div className="set">
-      <a href="/payment"> <img alt="logo" className="trois" src={trois} /> <p>Paiement</p></a>
+      <a href="/payment"> <img alt="logo" className="trois" src={trois} /> Paiement</a>
       </div >
       <div className="illust">
       <img alt="logo illustration" className="livre" src={livre}/>

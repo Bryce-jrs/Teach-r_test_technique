@@ -24,77 +24,77 @@ div.content {
   height: 1000px;
 }
 
-.teach{
-  width:45px;
+.teach {
+  width: 45px;
 }
-.green{
+.green {
   width: 35px;
 }
-.deux{
-  width:45px;
+.deux {
+  width: 45px;
 }
-.trois{
-  width:45px;
-  height:50px;
+.trois {
+  width: 45px;
+  height: 50px;
 }
-.livre{
-  width:250px
+.livre {
+  width: 250px;
 }
-.illust{
+.illust {
   margin-top: 100px;
 }
 
-.set{
+.set {
   display: flex;
-  align-items:center;
-  margin-left:20px;
+  align-items: center;
+  margin-left: 20px;
 }
 
-@media only screen and (min-width: 725px)and (max-width: 1024px) {
+@media only screen and (min-width: 725px) and (max-width: 1024px) {
   .sidebar {
     width: 200px;
   }
-  .teach{
-    width:80px;
+  .teach {
+    width: 80px;
   }
-  .green{
+  .green {
     width: 35px;
   }
-  .deux{
-    width:45px;
+  .deux {
+    width: 45px;
   }
-  .trois{
-    width:45px;
-    height:45px;
+  .trois {
+    width: 45px;
+    height: 45px;
   }
-  .livre{
-    width:150px;
-    height:120px;
+  .livre {
+    width: 150px;
+    height: 120px;
   }
- }
+}
 
- @media only screen and (min-width: 320px)and (max-width: 675px) {
+@media only screen and (min-width: 320px) and (max-width: 675px) {
   .sidebar {
     display: none;
   }
-  .sidebar a p{
+  .sidebar a p {
     display: none;
- }
- .teach{
-  width:30px;
-}
-.green{
-  width: 20px;
-}
-.deux{
-  width:45px;
-}
-.trois{
-  width:45px;
-  height:45px;
-}
-.livre{
-  width:150px;
-  height:120px;
-}
+  }
+  .teach {
+    width: 30px;
+  }
+  .green {
+    width: 20px;
+  }
+  .deux {
+    width: 45px;
+  }
+  .trois {
+    width: 45px;
+    height: 45px;
+  }
+  .livre {
+    width: 150px;
+    height: 120px;
+  }
 }

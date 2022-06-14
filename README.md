@@ -6,8 +6,11 @@ Niveau 1:
 - Pour l'utiliser remplacer dans le fichier App.js le fichier TeachCard.js par Card.js
 
 Niveau 2: 
-- Le fichier a utilisé pour ce niveau en ce qui concerne les profils de teachers est le fichier TeacherCards
+- Le fichier a utilisé pour ce niveau en ce qui concerne les profils de teachers est le fichier TeacherCards.js
 - Les données des teachers sont dans ce cas contenu dans un fichier JSON que vous pouvez modifier pour rajouter un teacher 
 
+Niveau3 : 
+- - Le fichier a utilisé pour ce niveau en ce qui concerne les profils de teachers est le fichier TeacherCardsApi.js
+- Les données des teachers sont récupérer directement sur l'API de data.gouv
 
 

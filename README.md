@@ -17,4 +17,6 @@ Niveau3 :
 ACCES AU RENDU :
 
 - Un lien a été donnée vers le code de situé dans mon code sandbox 
-- De base la maquette afficher est la première vous pouvez acceder à la maquettte du formulaire en rentrant le bon component dans App.jsx ( <Formulaire/> )
+- De base la maquette afficher est la première vous pouvez acceder à la maquettte du formulaire en rentrant le bon component dans App.jsx (Formulaire)
+- Un fois sur code sandbox, vous aurez deux parties: Une partie code et une partie rendu dans un Browser
+- La configuration initiale du Browser donne un mauvais rendu. Il vous faudra choisir une taille d'écran via le bouton Toggle responsive view ou directement utiliser le bouton "Ouvrir new window" pour avoir le rendu sur une autre page. 

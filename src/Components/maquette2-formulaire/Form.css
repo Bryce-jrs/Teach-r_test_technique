@@ -1,0 +1,268 @@
+.corps {
+  display: flex;
+  flex-direction: wrap;
+  margin-top: 180px;
+}
+.gauche .elt-form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: #c0dfef;
+  border-radius: 10px;
+  height: 65px;
+  width: 280px;
+  margin-left: 240px;
+  text-align: left;
+}
+.droite .elt-form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: #c0dfef;
+  border-radius: 10px;
+  height: 65px;
+  width: 300px;
+  margin-left: 70px;
+  text-align: left;
+}
+.elt-form label {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.gauche .elt-form input {
+  width: 250px;
+  margin-left: 10px;
+  background-color: #c0dfef;
+  margin-top: 5px;
+  border: 0;
+}
+.droite .elt-form input {
+  width: 268px;
+  margin-left: 10px;
+  background-color: #c0dfef;
+  margin-top: 5px;
+  border: 0;
+}
+.btn-cpassword {
+  width: 5px;
+  height: 10px;
+  margin-top: -25px;
+  margin-left: 260px;
+  border: 0;
+  background-color: #c0dfef;
+}
+.btn-password {
+  position: absolute;
+  width: 5px;
+  height: 10px;
+  margin-top: 20px;
+  margin-left: 240px;
+  border: 0;
+  background-color: #c0dfef;
+}
+@media only screen and (min-width: 1000px) and (max-width: 1135px) {
+  .gauche .elt-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #c0dfef;
+    border-radius: 10px;
+    height: 65px;
+    width: 280px;
+    margin-left: 100px;
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 860px) and (max-width: 935px) {
+  .gauche .elt-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #c0dfef;
+    border-radius: 10px;
+    height: 65px;
+    width: 280px;
+    margin-left: 40px;
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 840px) and (max-width: 1000px) {
+  .gauche .elt-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #c0dfef;
+    border-radius: 10px;
+    height: 65px;
+    width: 180px;
+    margin-left: 60px;
+    text-align: left;
+  }
+  .droite .elt-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #c0dfef;
+    border-radius: 10px;
+    height: 65px;
+    width: 200px;
+    margin-left: 70px;
+    text-align: left;
+  }
+  .elt-form label {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 11px;
+  }
+  .gauche .elt-form input {
+    width: 125px;
+    margin-left: 10px;
+    background-color: #c0dfef;
+    margin-top: 5px;
+    border: 0;
+  }
+  .droite .elt-form input {
+    width: 128px;
+    margin-left: 10px;
+    background-color: #c0dfef;
+    margin-top: 5px;
+    border: 0;
+  }
+  .btn-cpassword {
+    width: 5px;
+    height: 10px;
+    margin-top: -25px;
+    margin-left: 170px;
+    border: 0;
+    background-color: #c0dfef;
+  }
+  .btn-password {
+    position: absolute;
+    width: 5px;
+    height: 10px;
+    margin-top: 20px;
+    margin-left: 150px;
+    border: 0;
+    background-color: #c0dfef;
+  }
+}
+@media only screen and (min-width: 555px) and (max-width: 840px) {
+  .gauche .elt-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #c0dfef;
+    border-radius: 10px;
+    height: 65px;
+    width: 180px;
+    margin-left: -5px;
+    text-align: left;
+  }
+  .droite .elt-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #c0dfef;
+    border-radius: 10px;
+    height: 65px;
+    width: 200px;
+    margin-left: 70px;
+    text-align: left;
+  }
+  .elt-form label {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 11px;
+  }
+  .gauche .elt-form input {
+    width: 125px;
+    margin-left: 10px;
+    background-color: #c0dfef;
+    margin-top: 5px;
+    border: 0;
+  }
+  .droite .elt-form input {
+    width: 128px;
+    margin-left: 10px;
+    background-color: #c0dfef;
+    margin-top: 5px;
+    border: 0;
+  }
+  .btn-cpassword {
+    width: 5px;
+    height: 10px;
+    margin-top: -25px;
+    margin-left: 170px;
+    border: 0;
+    background-color: #c0dfef;
+  }
+  .btn-password {
+    position: absolute;
+    width: 5px;
+    height: 10px;
+    margin-top: 20px;
+    margin-left: 150px;
+    border: 0;
+    background-color: #c0dfef;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 555px) {
+  .gauche .elt-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #c0dfef;
+    border-radius: 10px;
+    height: 65px;
+    width: 150px;
+    margin-left: -40px;
+    text-align: left;
+  }
+  .droite .elt-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #c0dfef;
+    border-radius: 10px;
+    height: 65px;
+    width: 200px;
+    margin-left: 30px;
+    text-align: left;
+  }
+  .elt-form label {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 11px;
+  }
+  .gauche .elt-form input {
+    width: 125px;
+    margin-left: 10px;
+    background-color: #c0dfef;
+    margin-top: 5px;
+    border: 0;
+  }
+  .droite .elt-form input {
+    width: 128px;
+    margin-left: 10px;
+    background-color: #c0dfef;
+    margin-top: 5px;
+    border: 0;
+  }
+  .btn-cpassword {
+    width: 5px;
+    height: 10px;
+    margin-top: -25px;
+    margin-left: 170px;
+    border: 0;
+    background-color: #c0dfef;
+  }
+  .btn-password {
+    position: absolute;
+    width: 5px;
+    height: 10px;
+    margin-top: 20px;
+    margin-left: 114px;
+    border: 0;
+    background-color: #c0dfef;
+  }
+}

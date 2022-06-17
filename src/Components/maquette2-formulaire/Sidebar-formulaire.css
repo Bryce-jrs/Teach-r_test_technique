@@ -1,0 +1,57 @@
+.sidebarform {
+  margin-right: 350px;
+  padding: 0;
+  width: 25vw;
+  background-color: #c0dfef;
+  position: fixed;
+  height: 100%;
+}
+
+/* Sidebar links */
+.sidebarform a {
+  display: block;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 1.3vw;
+  margin-top: 1.25%;
+  margin-left: 40px;
+}
+.sidebarform a.active {
+  display: flex;
+  color: #3b5998;
+  padding: 5%;
+  text-decoration: none;
+  font-size: 93.75%;
+  margin-top: 3.25%;
+}
+
+.teachform {
+  width: 10vw;
+  margin-left: -40%;
+}
+.greenform {
+  position: absolute;
+  width: 35px;
+  margin-left: -40px;
+}
+.deuxform {
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  margin-left: -45px;
+}
+
+.livreform {
+  width: 160px;
+  margin-top: 10px;
+  margin-left: -70px;
+}
+
+.setform {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+@media only screen and (min-width: 725px) and (max-width: 1024px) {
+}

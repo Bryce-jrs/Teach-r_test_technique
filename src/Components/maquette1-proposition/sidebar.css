@@ -1,0 +1,73 @@
+.sidebar {
+  margin-right: 350px;
+  padding: 0;
+  width: 24vw;
+  background-color: #c0dfef;
+  position: fixed;
+  height: 100%;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: #3b5998;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 1.3vw;
+  margin-top: 1.25%;
+  margin-left: 14%;
+}
+
+.sidebar a.active {
+  display: flex;
+  color: #3b5998;
+  padding: 5%;
+  text-decoration: none;
+  font-size: 1.3vw;
+  margin-left: 11%;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+.teach {
+  width: 10vw;
+  margin-left: -40%;
+}
+.green {
+  position: absolute;
+  width: 2.3vw;
+  margin-left: -11%;
+}
+.deux {
+  position: absolute;
+  width: 2.5vw;
+  height: 5vh;
+  margin-top: -12px;
+  margin-left: -12%;
+}
+.trois {
+  position: absolute;
+  width: 2.5vw;
+  height: 5vh;
+  margin-top: -8px;
+  margin-left: -12%;
+}
+.livre {
+  width: 160px;
+  margin-top: 10px;
+  margin-left: -10%;
+}
+.illust {
+  margin-top: 100px;
+}
+
+.set {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}

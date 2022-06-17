@@ -1,0 +1,13 @@
+.Headerform {
+  position: relative;
+  margin-left: 60vw;
+}
+
+.Headerform span {
+  font-size: 10px;
+}
+
+.Headerform a {
+  font-size: 10px;
+  color: #3b5998;
+}

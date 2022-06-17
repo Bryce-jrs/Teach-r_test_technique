@@ -1,0 +1,125 @@
+.Annonce p {
+  position: absolute;
+  left: 450px;
+  right: 150px;
+  margin-top: 60px;
+  color: black;
+  text-align: left;
+  top: 95px;
+  line-height: 25px;
+}
+.Annonce {
+  margin-top: 80px;
+}
+.Annonce h3 {
+  position: absolute;
+  left: 465px;
+  top: 100px;
+  color: #3b5998;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+@media only screen and (min-width: 1000px) and (max-width: 1135px) {
+  .Annonce p {
+    position: absolute;
+    left: 310px;
+    right: 150px;
+    margin-top: 60px;
+    color: black;
+    text-align: left;
+    top: 95px;
+    line-height: 25px;
+  }
+  .Annonce h3 {
+    position: absolute;
+    left: 325px;
+    top: 100px;
+    color: #3b5998;
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 840px) and (max-width: 1000px) {
+  .Annonce p {
+    position: absolute;
+    left: 270px;
+    right: 150px;
+    margin-top: 60px;
+    color: black;
+    text-align: left;
+    top: 95px;
+    line-height: 25px;
+  }
+  .Annonce h3 {
+    position: absolute;
+    left: 289px;
+    top: 100px;
+    color: #3b5998;
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 670px) and (max-width: 850px) {
+  .Annonce p {
+    position: absolute;
+    left: 220px;
+    right: 150px;
+    margin-top: 60px;
+    color: black;
+    text-align: left;
+    top: 95px;
+    line-height: 25px;
+  }
+  .Annonce h3 {
+    position: absolute;
+    left: 239px;
+    top: 100px;
+    color: #3b5998;
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 540px) and (max-width: 670px) {
+  .Annonce p {
+    position: absolute;
+    left: 59px;
+    right: 150px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color: black;
+    text-align: left;
+    top: 95px;
+    line-height: 25px;
+    font-size: 12px;
+  }
+  .Annonce h3 {
+    position: absolute;
+    left: 78px;
+    top: 100px;
+    color: #3b5998;
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 675px) {
+  .Annonce p {
+    position: absolute;
+    left: 28px;
+    right: 150px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color: black;
+    text-align: left;
+    top: 95px;
+    line-height: 25px;
+    font-size: 12px;
+  }
+  .Annonce h3 {
+    position: absolute;
+    left: 47px;
+    top: 100px;
+    color: #3b5998;
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,18 @@
+#PaymentForm {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 45%;
+  background-color: #c0dfef;
+  width: 500px;
+  height: 500px;
+}
+
+.cardcredit {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.cardcredit .input {
+  margin-top: 10px;
+}

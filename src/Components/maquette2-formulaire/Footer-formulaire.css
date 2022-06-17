@@ -1,0 +1,21 @@
+.previous-form {
+  width: 100px;
+  height: 40px;
+  margin-left: 100px;
+  margin-right: 190px;
+  margin-top: 20px;
+  border-radius: 40px;
+  border: 0;
+  background-color: #f8f9fb;
+}
+.next-form {
+  width: 150px;
+  height: 40px;
+  margin-left: 160px;
+  margin-top: 20px;
+  border-radius: 40px;
+  border: solid;
+  border-color: #3b5998;
+  color: #3b5998;
+  background-color: #f8f9fb;
+}
